@@ -9,5 +9,9 @@
         align-items: center;
         width: 30%;
         font-size: 25 px;
+
+        .header__option {
+            cursor: pointer;
+        }
     }
 }

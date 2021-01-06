@@ -1,3 +1,10 @@
 .signIn {
     width: 30vw;
+    display: flex;
+    flex-direction: column;
+
+    .signIn__button {
+        display: flex;
+        justify-content: space-between;
+    }
 }
