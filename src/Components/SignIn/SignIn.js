@@ -1,5 +1,5 @@
 import React from "react";
-import "./SIgnin.scss";
+import "./SignIn.scss";
 import FormInput from "../FormInput/FormInput";
 import Button from "../Button/Button";
 import { auth, signInWithGoogle } from "../../Firebase/Firebase.js";
@@ -58,7 +58,7 @@ class SignIn extends React.Component {
           />
           <div className="signIn__button">
             <Button type="submit"> Sign In </Button>
-            <Button onClick={signInWithGoogle} isGoogleSignIn>
+            <Button type="button" onClick={signInWithGoogle} isGoogleSignIn>
               {" "}
               Sign In with Google{" "}
             </Button>
